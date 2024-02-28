@@ -1,0 +1,77 @@
+body {
+  font-family: Roboto;
+}
+.bg-container {
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-container {
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+.button {
+  background-color: #8b5cf6;
+  border-style: none;
+  border-radius: 15px;
+  padding: 15px;
+}
+.title {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.date {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.addButton {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.horizontal {
+  min-width: 5px;
+  background-size: cover;
+  margin: 15px;
+  min-height: fit-content;
+}
+* {
+  box-sizing: border-box;
+}
+.unorderedList {
+  list-style-type: none;
+}
